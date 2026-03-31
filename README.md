@@ -2,7 +2,7 @@
 
 An end-to-end AI system that detects plant diseases from images and provides treatment recommendations using Computer Vision and a Large Language Model.
 
-**Live Demo**: [gaia.streamlit.app](https://gaia.streamlit.app) · **API Docs**: [gaia-api.onrender.com/docs](https://gaia-api.onrender.com/docs)
+**Live Demo**: [gaia.streamlit.app](https://ueuddprkyaq4dnjv5mzqu8.streamlit.app/) · **API Docs**: [gaia-api.onrender.com/docs]()
 
 ---
 
