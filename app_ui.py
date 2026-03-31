@@ -16,7 +16,7 @@ if uploaded_file:
             
             try:
                 # Chamada à tua API
-                response = requests.post("http://api:8000/predict", files=files)
+                response = requests.post("https://gaia-api-sda8.onrender.com/predict", files=files)
                 
                 if response.status_code == 200:
                     data = response.json()
