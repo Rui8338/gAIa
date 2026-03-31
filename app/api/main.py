@@ -9,6 +9,10 @@ from app.core.config import settings
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
+    import os
+    print("CWD:", os.getcwd())
+    print("FILES:", os.listdir("."))
+    print("MODELS:", os.listdir("models") if os.path.exists("models") else "pasta não existe")
     app.state.vision = VisionService(str(settings.MODEL_PATH), str(settings.MAPPING_PATH))
     app.state.llm = LLMService()
     yield
