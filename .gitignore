@@ -1,6 +1,5 @@
 .env
 __pycache__/
-*.pth
 .ipynb_checkpoints/
 *.pyc
 .vscode/
