@@ -84,11 +84,6 @@ file: <image>
 }
 ```
 
-### `GET /health`
-```json
-{ "status": "ok" }
-```
-
 ---
 
 ## Run Locally
@@ -96,7 +91,7 @@ file: <image>
 **Prerequisites**: Docker Desktop
 
 ```bash
-git clone https://github.com/<your-username>/gAIa.git
+git clone https://github.com/Rui8338/gAIa.git
 cd gAIa
 ```
 
