@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.pth
+.env
+data/
+notebooks/
+tests/
+.ipynb_checkpoints
